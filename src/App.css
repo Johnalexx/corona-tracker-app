@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+/* App Styling */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: white;
+}
+@font-face {
+  font-family: navFont;
+  src: url('./font/pricedown/pricedown\ bl.ttf');
+}
+.head-link{
+  color: black;
+  font-family: navFont;
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.Spa-logo {
+  justify-content: start;
+  display: flex;
+  height: 5vmin;
+  pointer-events: none;
+  border-radius: 10px;
+}
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  background-color: #324148;
+  color: white;
+}
