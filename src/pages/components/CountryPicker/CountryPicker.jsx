@@ -13,7 +13,6 @@ const CountryPicker = ({ handleCountrySelector }) => {
   }, [setFetchedCountries]);
 
   return (
-    
     <FormControl className={styles.formControl}>
       <NativeSelect
         defaultValue=""
