@@ -1,3 +1,8 @@
+#   Johnalex Covid-19 Tracker App
+###### installation
+    >> go to the directory through your terminal and type
+**npm install**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
